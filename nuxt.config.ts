@@ -4,6 +4,6 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['nuxt-og-image'],
   nitro: {
-    preset: 'vercel'
+    preset: 'vercel-edge'
   }
 })
