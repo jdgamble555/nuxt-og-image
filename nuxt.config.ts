@@ -5,5 +5,13 @@ export default defineNuxtConfig({
   modules: ['nuxt-og-image'],
   nitro: {
     preset: 'vercel-edge'
+  },
+  ogImage: {
+    compatibility: {
+      prerender: {
+        chromium: false,
+        sharp: false
+      }
+    }
   }
 })
