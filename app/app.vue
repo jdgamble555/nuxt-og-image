@@ -1,4 +1,5 @@
 <script setup lang="ts">
+/*
 defineOgImageComponent("Nuxt", {
   title: "Nuxt Commerce on Edge Test",
   description:
@@ -7,10 +8,12 @@ defineOgImageComponent("Nuxt", {
   headline: "",
   colorMode: "dark",
 });
+*/
 </script>
 
 <template>
-  <div>
+  <div class="flex items-center justify-center space-y-6">
+    <a href="/api/og">Open Graph Image</a>
     <a href="https://www.opengraph.xyz/url/https%3A%2F%2Fnuxt-og-image.vercel.app%2F">Open Graph Test</a>
     <NuxtRouteAnnouncer />
     <NuxtWelcome />
