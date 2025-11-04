@@ -4,8 +4,10 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   //modules: ['nuxt-og-image'],
   nitro: {
-    preset: 'vercel-edge'
+    preset: 'vercel-edge',
+    wasm: { esmImport: true }
   },
+
   /*ogImage: {
     compatibility: {
       prerender: {
