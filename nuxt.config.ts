@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   //modules: ['nuxt-og-image'],
   nitro: {
     preset: 'vercel-edge',
-    wasm: { esmImport: true }
+    wasm: { esmImport: true, lazy: true }
   },
 
   /*ogImage: {
