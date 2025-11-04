@@ -2,16 +2,16 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  modules: ['nuxt-og-image'],
+  //modules: ['nuxt-og-image'],
   nitro: {
     preset: 'vercel-edge'
   },
-  ogImage: {
+  /*ogImage: {
     compatibility: {
       prerender: {
         chromium: false,
         sharp: false
       }
     }
-  }
+  }*/
 })
