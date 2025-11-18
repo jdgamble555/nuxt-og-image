@@ -19,9 +19,7 @@ const num = Math.random();
       Open Graph Test
     </a>
     <br />
-    <a :href="`/api/og?num=${num}`" target="_blank">
-      Show OG Image
-    </a>
+    <a :href="`/api/og?num=${num}`"> Show OG Image </a>
     <NuxtRouteAnnouncer />
     <NuxtWelcome />
   </div>
