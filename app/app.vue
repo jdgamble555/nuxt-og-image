@@ -1,12 +1,12 @@
 <script setup lang="ts">
-defineOgImageComponent("Nuxt", {
+/*defineOgImageComponent("Nuxt", {
   title: "Nuxt Commerce on Edge Test",
   description:
     "A high-performance, server-rendered E-commerce app built with Nuxt & Shopify",
   theme: "#4ADE80",
   headline: "",
   colorMode: "dark",
-});
+});*/
 
 const num = Math.random();
 </script>
