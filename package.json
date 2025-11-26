@@ -19,9 +19,9 @@
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
-    "@cf-wasm/og": "^0.2.3",
+    "@cf-wasm/og": "^0.3.1",
     "@cf-wasm/plugins": "^0.1.7",
-    "@cf-wasm/resvg": "^0.2.2",
-    "@cf-wasm/satori": "^0.2.2"
+    "@cf-wasm/resvg": "^0.3.1",
+    "@cf-wasm/satori": "^0.3.1"
   }
 }
