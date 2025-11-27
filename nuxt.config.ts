@@ -4,14 +4,8 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   nitro: {
-    inlineDynamicImports: true,
     preset: 'vercel-edge',
   },
-  esbuild: {
-    options: {
-      target: 'esnext',
-    },
-  },
-  
+
   modules: ['nuxt-og-image']
 })

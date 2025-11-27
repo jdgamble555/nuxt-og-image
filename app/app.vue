@@ -8,6 +8,9 @@ defineOgImageComponent("Nuxt", {
   colorMode: "dark",
 });
 
+const url = useRequestURL();
+const origin = url.origin;
+
 const num = Math.random();
 </script>
 
@@ -22,6 +25,6 @@ const num = Math.random();
     <a :href="`/api/og?num=${num}`"> Show OG Image </a>
     <NuxtRouteAnnouncer />
     <NuxtWelcome />
-    <!--<img src="http://[::1]:3000/__og-image__/image/og.png" alt="OG Image" />-->
+    <img :src="`${origin}/__og-image__/image/og.png`" alt="OG Image" />
   </div>
 </template>
