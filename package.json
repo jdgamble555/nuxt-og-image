@@ -23,6 +23,6 @@
     "@cf-wasm/plugins": "^0.1.7",
     "@cf-wasm/resvg": "^0.3.1",
     "@cf-wasm/satori": "^0.3.1",
-    "nuxt-og-image": "^5.1.10"
+    "nuxt-og-image": "^5.1.9"
   }
 }
