@@ -7,6 +7,11 @@ export default defineNuxtConfig({
     inlineDynamicImports: true,
     preset: 'vercel-edge',
   },
+  esbuild: {
+    options: {
+      target: 'esnext',
+    },
+  },
   
   modules: ['nuxt-og-image']
 })
