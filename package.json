@@ -23,6 +23,7 @@
     "@cf-wasm/plugins": "^0.1.8",
     "@cf-wasm/resvg": "^0.3.1",
     "@cf-wasm/satori": "^0.3.1",
+    "@vitejs/plugin-vue": "^6.0.2",
     "nuxt-og-image": "^5.1.9"
   }
 }
