@@ -8,7 +8,7 @@ import Og from '~/components/og.vue';
 export default defineEventHandler(async () => {
 
     const app = createSSRApp({
-        render: () => h(Og),
+        render: () => h(Og, { title : 'Welcome to My Image' })
     })
 
     const data = await renderToString(app)
